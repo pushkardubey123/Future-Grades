@@ -1,0 +1,130 @@
+
+.footer-section {
+  background-color: #f8f9fa; 
+  padding: 60px 0 40px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 1px solid #e9ecef;
+}
+
+.footer-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0b1c2c;
+  margin-bottom: 20px;
+}
+
+.footer-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-list li {
+  margin-bottom: 12px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #f15a22; 
+}
+
+.sms-input-group {
+  display: flex;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.country-code {
+  background: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  border-right: 1px solid #ced4da;
+}
+
+.mobile-input {
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-get-link {
+  background-color: #0b1c2c; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-get-link:hover {
+  background-color: #1a3652;
+}
+
+.play-store-badge {
+  height: 45px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.counselling-box {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+
+.counselling-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0b1c2c;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.btn-expert {
+  background-color: #f15a22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn-expert:hover {
+  opacity: 0.9;
+}
+
+.contact-info-block {
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.contact-icon {
+  margin-top: 3px;
+  color: #555;
+}

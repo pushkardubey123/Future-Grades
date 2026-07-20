@@ -1,0 +1,164 @@
+.carousel-wrapper {
+  padding: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.olympiad-banner {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(100deg, #b21f1f 0%, #d84513 40%, #ffffff 75%, #388e3c 100%);
+  color: white;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.banner-content {
+  padding: 40px 60px;
+  z-index: 2;
+  width: 100%;
+}
+
+.banner-subheading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.banner-title-small {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.banner-title-small::before,
+.banner-title-small::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 1px;
+  background-color: white;
+}
+.banner-title-small::before { left: -40px; }
+.banner-title-small::after { right: -40px; }
+
+.student-name {
+  color: #ffc107; 
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.strikes-gold {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.exam-badge {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.achiever-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.enrol-btn {
+  background-color: #ffca28;
+  color: #000;
+  border: none;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.enrol-btn:hover {
+  background-color: #ffb300;
+  transform: scale(1.05);
+}
+
+.student-image-container {
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.student-photo {
+  height: 100%;
+  object-fit: contain;
+}
+
+.name-badge {
+  background-color: #ffc107;
+  color: #b21f1f;
+  padding: 6px 15px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.name-badge span {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #000;
+}
+
+.carousel-indicators.custom-dashes {
+  bottom: 10px;
+}
+
+.carousel-indicators.custom-dashes button {
+  width: 35px !important;
+  height: 6px !important;
+  border-radius: 10px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border: none !important;
+}
+
+.carousel-indicators.custom-dashes button.active {
+  background-color: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  .student-image-container {
+    opacity: 0.3; 
+    right: 0;
+  }
+  .banner-content {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .banner-title-small::before, .banner-title-small::after {
+    display: none;
+  }
+}
